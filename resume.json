@@ -1,0 +1,130 @@
+{
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经验",
+    "skillList": "个人技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": "个人评价"
+  },
+  "avatar": {
+    "src": "https://avatars.githubusercontent.com/u/15646325?v=4",
+    "hidden": false
+  },
+  "profile": {
+    "name": "张伟（化名）",
+    "email": "zhangwei@example.com",
+    "mobile": "138xxxx1234",
+    "github": "https://github.com/zhangwei-dev",
+    "zhihu": "https://www.zhihu.com/people/zhangwei-tech",
+    "workExpYear": "15年"
+  },
+  "educationList": [
+    {
+      "edu_time": [
+        "2003.09.01",
+        "2007.06.30"
+      ],
+      "school": "华中科技大学",
+      "major": "计算机科学与技术",
+      "academic_degree": "硕士"
+    },
+    {
+      "edu_time": [
+        "1999.09.01",
+        "2003.06.30"
+      ],
+      "school": "武汉理工大学",
+      "major": "软件工程",
+      "academic_degree": "本科"
+    }
+  ],
+  "awardList": [
+    {
+      "award_info": "PMP项目管理专业人士认证",
+      "award_time": "2018"
+    },
+    {
+      "award_info": "公司年度技术创新先锋奖",
+      "award_time": "2020"
+    },
+    {
+      "award_info": "信创系统迁移优秀实践案例奖",
+      "award_time": "2022"
+    },
+    {
+      "award_info": "国家发明专利2项（智能调度算法、文档识别方法）",
+      "award_time": "2021"
+    }
+  ],
+  "workExpList": [
+    {
+      "company_name": "某某信息技术有限公司",
+      "department_name": "研发部",
+      "work_time": [
+        "2015.06",
+        null
+      ],
+      "work_desc": "研发部副总经理，全面负责企业级软件平台的技术战略、研发管理与团队建设。\n1. 领导80+人研发团队，主导AI与业务融合、系统国产化改造等重点项目\n2. 推动AI中台建设，封装NLP、图像识别、机器学习能力，服务多个业务线智能化升级\n3. 主导企业核心系统从国外技术栈向国产信创生态迁移，完成数据库、中间件、操作系统全面替代\n4. 搭建研发效能体系，推动敏捷开发与CI/CD落地，提升交付效率30%"
+    },
+    {
+      "company_name": "某软件系统有限公司",
+      "department_name": "技术研发中心",
+      "work_time": [
+        "2008.07",
+        "2015.05"
+      ],
+      "work_desc": "高级研发经理 / 系统架构师\n1. 负责大型ERP与供应链系统架构设计与核心模块研发\n2. 搭建基于Hadoop/Spark的大数据分析平台，支撑客户画像与决策分析\n3. 主导OCR发票识别系统开发，准确率达95%，年节省人力成本超500万元\n4. 培养技术团队，制定编码规范与技术演进路线"
+    }
+  ],
+  "skillList": [
+    "人工智能（机器学习、NLP、图像识别）",
+    "大数据架构（Hadoop、Spark、Flink）",
+    "系统架构与微服务设计",
+    "信创生态（鲲鹏、麒麟、达梦、东方通、华为云）",
+    "系统迁移与灾备方案设计",
+    "项目管理与团队领导（PMP）",
+    "Python / Java / Kubernetes / GitLab CI/CD"
+  ],
+  "projectList": [
+    {
+      "project_name": "AI驱动的智能仓储与物流调度系统",
+      "project_role": "项目总负责人",
+      "project_time": "2021.03 - 2023.08",
+      "project_desc": "融合强化学习算法与业务系统，实现订单分配、路径规划与资源调度的智能决策，提升仓储作业效率。",
+      "project_content": "1. 建立调度强化学习模型，结合库存、运力与订单优先级进行动态优化\n2. 与业务运营团队联合建模，确保算法可解释、可落地\n3. 系统上线后，作业效率提升40%，配送延迟减少28%\n4. 打通WMS、TMS与ERP系统，实现端到端自动化决策"
+    },
+    {
+      "project_name": "企业核心系统国产化改造项目",
+      "project_role": "技术总负责人",
+      "project_time": "2020.01 - 2022.12",
+      "project_desc": "完成财务、HR、CRM等6大核心系统从Oracle+Windows+WebLogic到国产信创环境的全面迁移。",
+      "project_content": "1. 制定‘评估-适配-测试-灰度-切换’五阶段迁移路线图\n2. 使用达梦数据库替代Oracle，麒麟OS替代Windows，东方通替代WebLogic\n3. 设计双轨运行机制，确保业务零中断，平稳过渡180天\n4. 通过等保三级与信创合规审计，建立长期运维与灾备体系"
+    },
+    {
+      "project_name": "企业AI中台与智能客服系统",
+      "project_role": "技术负责人",
+      "project_time": "2019.06 - 2021.05",
+      "project_desc": "建设统一AI能力平台，支持NLP、图像识别、预测模型在多个业务线的快速调用。",
+      "project_content": "1. 基于TensorFlow/PyTorch搭建AI模型训练与服务框架\n2. 开发智能客服机器人，实现90%常见问题自动应答\n3. 封装销售预测、设备故障预警等可复用模型组件\n4. 缩短AI功能开发周期50%，支撑3个业务部门智能化升级"
+    }
+  ],
+  "workList": [
+    {
+      "work_name": "《企业AI融合实践白皮书》",
+      "work_link": "https://example.com/ai-whitepaper"
+    },
+    {
+      "work_name": "信创系统迁移实施指南（内部文档）",
+      "work_link": "https://example.com/guochan-guide"
+    }
+  ],
+  "aboutme": {
+    "aboutme_desc": "资深IT研发管理者，现任IT公司研发部副总经理，致力于将AI与信创技术深度融入企业业务流程。具备15年技术研发与团队管理经验，成功主导多个AI应用落地与系统国产化改造项目。擅长在传统企业环境中推动数字化转型，平衡技术先进性与业务稳定性。具备跨部门协作、战略规划与复杂系统治理能力，愿为传统企业构建安全、智能、可持续的IT体系贡献力量。"
+  },
+  "theme": {
+    "color": "#2f5785",
+    "tagColor": "#8bc34a"
+  }
+}
